@@ -1,2 +1,2 @@
 # SantiagoBerlfein.github.io
-These are the pages that i created. i wanna keep doing pages while i learn on my own.
+Esta es la primera página web que hice con un curso de HTML y CSS
