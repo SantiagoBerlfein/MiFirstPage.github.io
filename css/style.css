@@ -1,0 +1,113 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: #fbbc02;
+    position: relative;
+    height: 150px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.divEnlaces{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+.arribaDerecha{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.aRegistro{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none !important;
+    padding: 20px;
+    color: black !important;
+    transition: font-size .3s ease-in;
+}
+.productosIzquierda{
+    position: absolute;
+    left: 20px;
+    bottom: 0%;
+}
+a:hover{
+    background-color: #fbbc02;
+    color: white;
+    font-size: 20px;
+}
+a:active{
+    border: 2px black solid;
+    background-color: #fbbc02;
+}
+.tituloCentrado{
+    text-align: center;
+}
+.divProducto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.card{
+    border: 1px gray solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+.divinfoProducto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divinfoProducto p{
+    margin: 0px;
+}
+.productosDestacados{
+    display: flex;
+    justify-content: center;
+}
+.Divrelativo{
+    position: relative;
+    margin: 50px;
+}
+.parrafoA{
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+}
+.divImgCentrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.borde{
+    border-left: gray 2px solid;
+    border-right: gray 2px solid;
+}
+.row{
+    margin-right: 0 !important;
+}
+@media screen and (max-width: 1210px) {
+    .divProducto {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 850px) {
+    .productosDestacados{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 420px) {
+    .imgProductodestacado {
+        width: auto;
+    }
+}
+
+
+

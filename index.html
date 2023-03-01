@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b8ba57dde5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Mercado Liebre</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./img/mercado-liebre.png" alt="Logo" width="200px">
+        </div>
+        <h3 class="productosIzquierda">Todos los productos</h3>
+
+        <p class="arribaDerecha"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i>Todas las opiniones en un solo lugar</p>
+
+        <div class="divEnlaces">
+            <a href="#" class="aTarjeta"><i class='bx bx-credit-card'></i>Adheri tu tarjeta</a>
+            <a href="./seccion/registro.html" class="aRegistro"><i class='bx bx-id-card' ></i>Creá tu cuenta</a>
+            <a href="#" class="aInicio" data-bs-toggle="modal" data-bs-target="#exampleModal">Ingresar<i class='bx bxs-arrow-to-right'></i></a>
+        </div>
+    </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Ingreso</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <div class="divImgCentrada">
+                    <img src="./img/mercado-liebre.png" alt="Logo" width="150px">
+                </div>
+                <form>
+                    <label class="form-label" for="nombre">Nombre</label>
+                    <input class="form-control" type="text" name="nombre" id="nombre">
+                    <br>
+                    <label class="form-label" for="password">Contraseña</label>
+                    <input class="form-control" type="password" name="password" id="password">
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Ingresar</button>
+            </div>
+        </div>
+    </div>
+  </div>
+    <main>
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="moverBanner" src="./img/banner1.jpg" alt="banner principal" width="100%">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner2.jpg" class="d-block w-100" alt="banner secundario">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/productos/img-home-banner.jpg" class="d-block w-100" alt="tercer banner">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section>
+            <h2 class="tituloCentrado m-5">Disfruta nuestras ofertas</h2>
+            <div class="divProducto">
+                <div class="card">
+                    <img class="imgProductodestacado" src="./img/productos/img-cafetera-moulinex.jpg" alt="Foto de Cafetera" width="250px">
+                    <div class="divinfoProducto">
+                        <p>Cafetera de moulinex</p>
+                        <Button class="btn btn-warning">Comprar</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="imgProductodestacado" src="./img/productos/img-macbook-pro-2019.jpg" alt="Foto de Nootebook" width="250px">
+                    <div class="divinfoProducto">
+                        <p>Macbook Pro 2019</p>
+                        <Button class="btn btn-warning">Comprar</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="imgProductodestacado" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="Foto de Celular" width="250px">
+                    <div class="divinfoProducto">
+                        <p>Samsung Galaxy</p>
+                        <Button class="btn btn-warning">Comprar</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="imgProductodestacado" src="./img/productos/img-tv-samsung-smart.jpg" alt="Foto de Tv" width="250px">
+                    <div class="divinfoProducto">
+                        <p>Tv LG 40 Pulgadas</p>
+                        <Button class="btn btn-warning">Comprar</Button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 class="tituloCentrado m-5">Productos Destacados</h2>
+            <div class="productosDestacados">
+                <div class="card Divrelativo">
+                    <img class="imgProductodestacado" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="Foto de Celular" width="300px">
+                    <p class="parrafoA">Smartphone samsung galaxy</p>
+                </div>
+                <div class="card Divrelativo">
+                    <img class="imgProductodestacado" src="./img/productos/img-tv-samsung-smart.jpg" alt="Foto de tv" width="300px">
+                    <p class="parrafoA" style="color: #fff;">TV smart 40" Samsung</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h4 class="m-4">Seguinos</h4>
+                <ul>
+                    <li><i class='bx bxl-facebook'></i>Facebook</li>
+                    <li><i class='bx bxl-instagram'></i>Instagram</li>
+                    <li><i class='bx bxl-linkedin'></i>Linkedin</li>
+                    <li><i class='bx bxl-youtube' ></i>Youtube</li>
+                </ul>
+            </div>
+            <div class="col borde">
+                <h4 class="m-4">Otros servicios</h4>
+                <ul>
+                    <li>MercadoLiebre Pago</li>
+                    <li>MercadoLiebre Shops</li>
+                    <li>Liebre Envios</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="m-4">Trabaja con nosotros</h4>
+                <form>
+                    <input type="email" name="email" id="email">
+                    <button class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
